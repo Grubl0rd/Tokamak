@@ -3,10 +3,10 @@
     {
       "identity" : "javascriptkit",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftwasm/JavaScriptKit.git",
+      "location" : "https://github.com/Grubl0rd/JavaScriptKit.git",
       "state" : {
-        "revision" : "2d7bc960eed438dce7355710ece43fa004bbb3ac",
-        "version" : "0.15.0"
+        "branch" : "main",
+        "revision" : "8e79a170d7c394cc539a87f64186f56def25ddce"
       }
     },
     {
@@ -14,17 +14,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/OpenCombine/OpenCombine.git",
       "state" : {
-        "revision" : "9cf67e363738dbab61b47fb5eaed78d3db31e5ee",
-        "version" : "0.13.0"
+        "branch" : "master",
+        "revision" : "1c6f02c7ed8140c0ba7a783aaddb6e0685a0037b"
       }
     },
     {
       "identity" : "opencombinejs",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/swiftwasm/OpenCombineJS.git",
+      "location" : "https://github.com/Grubl0rd/OpenCombineJS.git",
       "state" : {
-        "revision" : "e574e418ba468ff5c2d4c499eb56f108aeb4d2ba",
-        "version" : "0.2.0"
+        "branch" : "main",
+        "revision" : "f7f6e2aeee2ffb88128d18a5531f9534c85140c5"
       }
     },
     {
@@ -50,8 +50,17 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/pointfreeco/swift-snapshot-testing.git",
       "state" : {
-        "revision" : "f8a9c997c3c1dab4e216a8ec9014e23144cbab37",
-        "version" : "1.9.0"
+        "revision" : "8e68404f641300bfd0e37d478683bb275926760c",
+        "version" : "1.15.2"
+      }
+    },
+    {
+      "identity" : "swift-syntax",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-syntax.git",
+      "state" : {
+        "revision" : "43c802fb7f96e090dde015344a94b5e85779eff1",
+        "version" : "509.1.0"
       }
     }
   ],

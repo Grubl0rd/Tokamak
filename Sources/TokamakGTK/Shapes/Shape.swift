@@ -18,6 +18,7 @@
 import CGDK
 import CGTK
 import Foundation
+import CoreGraphics
 import TokamakCore
 
 func createPath(from elements: [Path.Element], in cr: OpaquePointer) {

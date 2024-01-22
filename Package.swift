@@ -1,11 +1,11 @@
-// swift-tools-version:5.6
+// swift-tools-version:5.9
 
 import PackageDescription
 
 let package = Package(
   name: "Tokamak",
   platforms: [
-    .macOS(.v11),
+    .macOS(.v14),
     .iOS(.v13),
   ],
   products: [
@@ -46,16 +46,16 @@ let package = Package(
   ],
   dependencies: [
     .package(
-      url: "https://github.com/swiftwasm/JavaScriptKit.git",
-      from: "0.15.0"
+      url: "https://github.com/Grubl0rd/JavaScriptKit.git",
+      branch: "main"
     ),
     .package(
       url: "https://github.com/OpenCombine/OpenCombine.git",
       from: "0.12.0"
     ),
     .package(
-      url: "https://github.com/swiftwasm/OpenCombineJS.git",
-      from: "0.2.0"
+      url: "https://github.com/Grubl0rd/OpenCombineJS.git",
+      branch: "main"
     ),
     .package(
       url: "https://github.com/google/swift-benchmark",
